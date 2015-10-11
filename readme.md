@@ -22,7 +22,7 @@ PS:根据题目条件，问题中的示例输出有一个错误：
 04:00PM Rails for Python Developers lightning  
 04:05PM Networking Event
 
-## 运行代码:  
+## 运行:  
 
 运行环境：Python 2.7.1及以上3.0以下
 
@@ -31,7 +31,7 @@ PS:根据题目条件，问题中的示例输出有一个错误：
  3. 运行`python main.py`
  4. 或者运行`python main.py --f your_input.txt`来输入你的数据文件
 
-## 测试代码:  
+## 测试:  
 
 请使用第三方测试库nose：
 
