@@ -23,6 +23,8 @@ PS:根据题目条件，问题中的示例输出有一个错误：
 
 **运行代码:**
 
+运行环境：Python 2.7.1及以上3.0以下
+
  1. 将talk数据写入SampleInput.txt
  2. 进入src/ctm/
  3. 运行`python main.py`
