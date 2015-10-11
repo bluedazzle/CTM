@@ -13,10 +13,11 @@
 
 PS:根据题目条件，问题中的示例输出有一个错误：
 
-> 04:00PM Rails for Python Developers lightning
-> 05:00PM Networking Event
+> 04:00PM Rails for Python Developers lightning  
+> 05:00PM Networking Event  
 
-应该是：
+应该是：  
+
 04:00PM Rails for Python Developers lightning  
 04:05PM Networking Event
 
