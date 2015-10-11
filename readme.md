@@ -34,7 +34,7 @@ PS:根据题目条件，问题中的示例输出有一个错误：
     pip install nose
     pip install coverage
 
-测试代码请直接在当前目录下运行：
+测试代码请直接在src目录下运行：
 
     nosetests --with-coverage -v
 
