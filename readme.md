@@ -1,6 +1,7 @@
 # Conference Track Management
 
-**核心思路：**
+## 核心思路:  
+
 有多个talks要根据条件分配到多个session，session又要分配到多个tracks，
 所以建立三个类Talk、Session和Track一一对应，并根据具体条件实现相应的类方法与属性。
 
@@ -21,7 +22,7 @@ PS:根据题目条件，问题中的示例输出有一个错误：
 04:00PM Rails for Python Developers lightning  
 04:05PM Networking Event
 
-**运行代码:**
+## 运行代码:  
 
 运行环境：Python 2.7.1及以上3.0以下
 
@@ -30,7 +31,7 @@ PS:根据题目条件，问题中的示例输出有一个错误：
  3. 运行`python main.py`
  4. 或者运行`python main.py --f your_input.txt`来输入你的数据文件
 
-**测试代码:**
+## 测试代码:  
 
 请使用第三方测试库nose：
 
