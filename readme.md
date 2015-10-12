@@ -11,6 +11,7 @@
 
  1. 题目条件没有说是否可以出现下午不安排talk。根据题目条件下午的networking event不早于4点推测下午必须安排talk，否则networking event时间必早于4点。
  2. 题目条件没有说明极端情况下是否可以出现早上不安排talk。根据*约定1*中下午必须安排talk，则有可能出现上午没有talk的极端情况。
+ 3. 根据以上约定：读入总talk时间若小于下午session时间则抛出`TotalDurationNotEnough`异常；读入talk单个时间大于(下午session ＋ 额外session时间)则抛出`OutOfSessionDurationError`异常。
 
 PS:根据题目条件，问题中的示例输出有一个错误：
 

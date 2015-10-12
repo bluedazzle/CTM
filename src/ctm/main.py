@@ -171,7 +171,7 @@ class CTM(object):
         duration_dict = {self.MORNING: self._morning_duration,
                          self.AFTERNOON: self._afternoon_duration + self._extra_duration}
         duration = duration_dict.get(session_type, self.MORNING)
-        for talk in self._talk_list:
+        for talk in self._talk_list:                            # 正序遍历
             if talk['use']:
                 continue
             m_duration += talk['talk'].duration_value()
@@ -186,8 +186,9 @@ class CTM(object):
             m_talk_list.append(talk['talk'])
             talk['use'] = True
             self._use_num += 1
-        self._talk_list.reverse()
-        for talk in self._talk_list:
+        list_iter = len(self._talk_list) - 1
+        for i, k in enumerate(self._talk_list):                 # 逆序遍历
+            talk = self._talk_list[list_iter - i]
             if talk['use']:
                 continue
             m_duration += talk['talk'].duration_value()
@@ -201,7 +202,6 @@ class CTM(object):
             m_talk_list.append(talk['talk'])
             talk['use'] = True
             self._use_num += 1
-        self._talk_list.reverse()
         return m_talk_list
 
     def create_track(self):
